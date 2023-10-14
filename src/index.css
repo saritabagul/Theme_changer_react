@@ -11,3 +11,42 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.lightTheme{
+  background-color:aliceblue;
+  color:black;  
+}
+
+.darkTheme{
+  background-color:black;
+  color:aliceblue;
+}
+
+/* styles-light.css */
+.app.light {
+  background-color: white;
+  color: black;
+}
+
+/* styles-dark.css */
+.app.dark {
+  background-color: black;
+  color: white;
+}
+
+
+
+.toggleBtn{
+  position: relative;
+  background-color: rgb(34, 108, 204);
+  color:white;
+  padding: 10px;
+  border-radius: 5%;
+  margin:10px;
+  left: 40%;
+}
+
+.app p{
+  text-align: justify;
+  padding: 10px;
+}
