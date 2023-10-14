@@ -3,8 +3,7 @@ import { useTheme } from './ThemeContext';
 const Navbar = () =>{
     const { darkTheme, toggleTheme } = useTheme();
     return (
-        <div className={`app ${darkTheme ? 'dark' : 'light'}`}>
-        {/* Your component content */}
+        <div className={`app ${darkTheme ? 'dark' : 'light'}`}>       
         <button onClick={toggleTheme} className='toggleBtn'>
           Toggle Theme: {darkTheme ? 'Dark' : 'Light'}
         </button>
