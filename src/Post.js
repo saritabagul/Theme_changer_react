@@ -1,6 +1,6 @@
 import { useTheme } from './ThemeContext';
 
-const Navbar = () =>{
+const Post = () =>{
     const { darkTheme, toggleTheme } = useTheme();
     return (
         <div className={`app ${darkTheme ? 'dark' : 'light'}`}>       
@@ -28,5 +28,5 @@ const Navbar = () =>{
   }
 
 
-export default Navbar;
+export default Post;
 
